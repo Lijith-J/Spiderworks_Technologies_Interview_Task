@@ -1,22 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../Styles/Styles.scss'
 
 import avatar1 from './images/2151100226.jpg'
 import avatar2 from './images/50955.jpg'
 import avatar3 from './images/freepik-export-20240529133139mVT3.png'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Avatars_section = () => {
 
+  useEffect(() => {
+        Aos.init(
+            {
+                once: true,
+            }
+        );
+    }, []);
 
     return (
         <>
 
-            <div className=' w-full h-[280px] sm:h-[400] md:h-[430px] lg:h-[470px] flex justify-between gap-1 items-center overflow-x-hidden'>
+            <div className=' w-full h-[280px] sm:h-[400] md:h-[430px] lg:h-[470px] flex justify-between gap-1 items-center overflow-x-hidden' data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="50">
 
-                <div className=' w-[100%] h-[100%] py-10 grid grid-cols-2 items-center ' >
+                <div className=' w-[100%] h-[100%] py-10 grid grid-cols-2 items-center '  >
 
-                    <div className='bg-white p-2 w-[70px] sm:w-[100px] md:w-[140px] lg:w-[170px] h-[70px] sm:h-[100px] md:h-[140px] lg:h-[170px] rounded-full avatar-bubbles-div-1'>
+                    <div className='bg-white p-2 w-[70px] sm:w-[100px] md:w-[140px] lg:w-[170px] h-[70px] sm:h-[100px] md:h-[140px] lg:h-[170px] rounded-full avatar-bubbles-div-1' >
                         <div className=' rounded-full flex justify-center items-center overflow-hidden'>
                             <img src={avatar1} alt="" />
                         </div>

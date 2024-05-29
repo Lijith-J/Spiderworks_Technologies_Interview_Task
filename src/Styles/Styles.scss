@@ -82,11 +82,20 @@
 
 .avatar-bubbles-div-1 {
     transform: translate(-35px) translateY(45px) rotate(20deg);
+    :hover{
+        transition: transform 0.5s ease;
+        transform: scale(1.1);
+    }
 }
 
 .avatar-bubbles-div-2 {
 
     transform: translate(-65px) translateY(-10px) rotate(-10deg);
+
+    :hover{
+        transition: transform 0.5s ease;
+        transform: scale(1.1);
+    }
 
     :nth-child(2) {
         position: absolute;
@@ -99,10 +108,18 @@
 
 .avatar-bubbles-div-3 {
     transform: translate(.6rem);
+    :hover{
+        transition: transform 0.5s ease;
+        transform: scale(1.1);
+    }
 }
 
 .avatar-bubbles-div-4 {
     transform: translate(45px) translateY(-3.5rem) rotate(10deg);
+    :hover{
+        transition: transform 0.5s ease;
+        transform: scale(1.1);
+    }
 
     :nth-child(2) {
         position: absolute;
@@ -115,10 +132,19 @@
 
 .avatar-bubbles-div-5 {
     transform: translateY(-60px) rotate(25deg);
+    :hover{
+        transition: transform 0.5s ease;
+        transform: scale(1.1);
+    }
 }
 
 .avatar-bubbles-div-6 {
     transform: translate(-35px) translateY(30px);
+
+    :hover{
+        transition: transform 0.5s ease;
+        transform: scale(1.1);
+    }
 
     :nth-child(2) {
         position: absolute;
@@ -130,10 +156,20 @@
 
 .avatar-bubbles-div-7 {
     transform: translate(-5rem);
+
+    :hover{
+        transition: transform 0.5s ease;
+        transform: scale(1.1);
+    }
 }
 
 .avatar-bubbles-div-8 {
     transform: translate(3.5em) translateY(-1rem) rotate(15deg);
+
+    :hover{
+        transition: transform 0.5s ease;
+        transform: scale(1.1);
+    }
 
     :nth-child(2) {
         position: absolute;
@@ -143,6 +179,7 @@
         border-radius: 12px 16px 0 12px;
     }
 }
+
 
 
 
