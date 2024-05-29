@@ -12,27 +12,28 @@ const Discussion_section = () => {
 
       <div className='p-3 w-full flex flex-col justify-center items-center'>
 
-        <div className='w-[35%] p-3 flex justify-evenly items-center'>
-          <div className=' w-[40%] flex justify-center items-center gap-2'>
+        <div className=' md:w-[50%] lg:w-[38%] p-3 flex flex-col gap-5 md:gap-0 md:flex-row justify-evenly items-center'>
+
+          <div className=' md:w-[45%] flex justify-center items-center gap-2 cursor-pointer'>
             <div className='px-4 py-2 rounded-2xl bg-red-100'>
               <LuMessageSquare color='darkmagenta' />
             </div>
-            <span className=' text-sm'>START DISCUSSING</span>
+            <span className='text-xs md:text-[11px] lg:text-xs'>START DISCUSSING</span>
           </div>
 
-          <div className=' h-[6px] w-[6px] bg-violet-800 rounded-full'></div>
+          <div className='bg-violet-800 h-[6px] w-[6px] hidden md:block  rounded-full'></div>
 
-          <div className=' w-[40%] flex justify-center items-center gap-2'>
+          <div className=' md:w-[45%] flex justify-center items-center gap-2 cursor-pointer'>
             <div className='px-4 py-2 rounded-2xl bg-blue-200'>
               <AiOutlineBulb color='blue' />
             </div>
-            <span className=' text-sm'>VIEW TOPICS</span>
+            <span className='text-xs md:text-[11px] lg:text-xs'>VIEW TOPICS</span>
 
           </div>
         </div> 
 
         <div className='  w-[35%] p-3 flex justify-evenly items-center'>
-          <HiOutlineArrowNarrowDown size={35}/>
+          <HiOutlineArrowNarrowDown size={35} className='downArrow'/>
         </div>
 
       </div>
