@@ -1,0 +1,125 @@
+// Font families
+@font-face {
+    font-family: Cardo-Italic;
+    src: url(../fonts/Cardo-Italic.ttf);
+}
+
+
+// Navbar styles
+// ___________________________________
+
+
+.navbar-parent-div {
+    background-color: white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.325);
+    position: relative;
+    z-index: 1;
+
+    .navbar-page-navigations-links {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+    }
+}
+
+//Second Navbar
+// _________________________________________
+
+
+.second-navbar-parent {
+
+    .second-navbar-items-div {
+        background-color: rgba(255, 255, 255, 0.284);
+        border: 1px solid rgba(128, 128, 128, 0.169);
+        backdrop-filter: blur(20px);
+
+        .second-navbar-message-button {
+            background: linear-gradient(to right, blue, rgb(218, 31, 106));
+            box-sizing: border-box;
+        }
+    }
+}
+
+
+// Forum section
+// ________________________________________________
+
+.forum-section-titles-div h1 {
+    // font-family: Cardo-Italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.forum-section-titles-div h1>span {
+    // font-family: Cardo-Italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+
+// Avatar Section
+// _________________________________________
+
+
+.avatar-bubbles-div-1 {
+    transform: translate(-35px) translateY(45px) rotate(20deg);
+}
+
+.avatar-bubbles-div-2 {
+
+    transform: translate(-65px) translateY(-10px) rotate(-10deg);
+
+    :nth-child(2) {
+        position: absolute;
+        transform: translate(1.25rem) rotate(9deg);
+        right: 0;
+        top: 30%;
+        border-radius: 16px 12px 12px 0;
+    }
+}
+
+.avatar-bubbles-div-3 {
+    transform: translate(-15px);
+}
+
+.avatar-bubbles-div-4 {
+    transform: translate(45px) rotate(10deg);
+
+    :nth-child(2) {
+        position: absolute;
+        left: 0;
+        bottom: 30%;
+        border-radius: 12px 16px 0 12px;
+        transform: translate(-65px) translateY(26px) rotate(-10deg);
+    }
+}
+
+.avatar-bubbles-div-5 {
+    transform: translateY(-60px) rotate(25deg);
+}
+
+.avatar-bubbles-div-6 {
+    transform: translate(-35px);
+
+    :nth-child(2) {
+        position: absolute;
+        top: -10px;
+        right: -20px;
+        border-radius: 16px 12px 12px 0;
+    }
+}
+
+.avatar-bubbles-div-7 {
+    transform: translate(-5rem);
+}
+
+.avatar-bubbles-div-8 {
+    transform: translate(6.5em) translateY(-1rem) rotate(15deg);
+
+    :nth-child(2) {
+        position: absolute;
+        left: 0;
+        bottom: 20px;
+        transform:translate(-5rem) rotate(-15deg);
+        border-radius: 12px 16px 0 12px;
+    }
+}
