@@ -16,7 +16,7 @@ const Second_Navbar = () => {
         <>
 
 
-            <div className='fixed top-[15px] sm:top-[20px] w-full flex justify-center second-navbar-parent'>
+            <div className='fixed z-10 top-[15px] sm:top-[20px] w-full flex justify-center second-navbar-parent'>
 
 
                 <div className=' w-[85%] sm:[85%] md:w-[70%] lg:w-[50%] h-[60px] rounded-lg p-2 gap-2 flex justify-around second-navbar-items-div'>
