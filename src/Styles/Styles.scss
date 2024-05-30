@@ -499,3 +499,100 @@
         }
     }
 }
+
+
+
+
+
+
+
+// Question answer section
+// ________________________________________________________________
+
+
+.question-answers-item-div {
+    border-bottom: 2px solid rgb(198, 196, 196);
+}
+
+
+
+// Contributers section
+// _____________________________________________________________
+
+
+.contributor-top-div {
+
+    border-bottom: 1px solid rgba(128, 39, 39, 0.532);
+
+    .top-contributor-response-tag {
+        transform: translate(-7rem) translateY(-1rem);
+        padding: 5px 10px 5px 10px;
+        border-radius: 2rem;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .top-contributor-rating-tag {
+        transform: translate(7rem) translateY(1rem);
+        padding: 5px 10px 5px 10px;
+        border-radius: 2rem;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+}
+
+.join-community-button {
+    background-image: linear-gradient(-225deg, #600430 0%, #8D0B93 50%, #321575 100%);
+    // padding: 1.7rem 4rem 1.7rem 4rem;
+}
+
+
+
+// Contributor bottom box
+// ______________________
+
+
+.contibutors-bottom-parent-div{
+    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+}
+
+.backside-image-rounded-div1 {
+    background-color: rgb(212, 210, 210);
+    width: 250px;
+    height: 110px;
+
+    border-radius: 70%;
+    transform: rotate(70deg);
+}
+
+.backside-image-rounded-div2 {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    width: 250px;
+    height: 110px;
+    position: absolute;
+    border-radius: 70%;
+    transform: rotate(135deg);
+}
+
+.backside-image-rounded-div3 {
+    background-color: transparent;
+    width: 250px;
+    height: 110px;
+    position: absolute;
+    overflow: hidden;
+    object-fit: fill;
+    border-radius: 70%;
+    transform: rotate(70deg);
+
+    display: flex;
+    justify-content: end;
+
+    img {
+        transform: rotate(-68deg) translate(-1.2rem) translateY(-2.5rem) scale(2);
+    }
+}

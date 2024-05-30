@@ -6,13 +6,13 @@ import Contributors_section from './Contributors_section'
 const All_Topics_Section_Main = () => {
   return (
     <>
-        <div className='flex bg-red-400 py-28'>
-            <div className='bg-green-400 p-7 px-20 w-[68%] flex flex-col'>
+        <div className='flex justify-between bg-red-400 py-28'>
+            <div className='bg-yellow-400 p-7 px-20 w-[68%] flex flex-col'>
                 <SearchTopics/>
                 <Question_Answer_section/>
             </div>
 
-            <div className='bg-blue-400'>
+            <div className='bg-blue-400 w-[28%]'>
                 <Contributors_section/>
             </div>
         </div>
