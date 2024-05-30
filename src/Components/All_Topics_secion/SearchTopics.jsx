@@ -33,7 +33,7 @@ const SearchTopics = () => {
         <div className=' bg-blue-200 rounded-full p-2 flex items-center'>
           <AiOutlineBulb color='blue' size={16} />
 
-          <select name="" id="" className='bg-blue-200 font-medium border-none outline-none flex w-[100px]'>
+          <select name="" id="" className='bg-blue-200 font-medium border-none outline-none flex w-[100px] cursor-pointer'>
             <option value="">ALL TOPICS</option>
           </select>
         </div>
