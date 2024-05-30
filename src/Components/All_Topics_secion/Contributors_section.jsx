@@ -100,7 +100,7 @@ const Contributors_section = () => {
           <div className='p-3 flex justify-center items-center'>
             <button className=' text-white ring-1 ring-white px-4 py-2 flex gap-1 items-center rounded-full hover:bg-white hover:text-stone-900 hover:ring-stone-900'>
               Get the guide
-              <MdArrowRightAlt size={40} />
+              <MdArrowRightAlt size={40} className='rightArrow' />
             </button>
           </div>
 
@@ -189,7 +189,7 @@ const Contributors_section = () => {
           <div className='p-3 flex justify-center items-center'>
             <button className=' text-white ring-1 ring-white px-4 py-2 flex gap-1 items-center rounded-full hover:bg-white hover:text-stone-900 hover:ring-stone-900'>
               Get the guide
-              <MdArrowRightAlt size={40} />
+              <MdArrowRightAlt size={40} className='rightArrow' />
             </button>
           </div>
 

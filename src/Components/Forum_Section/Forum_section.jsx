@@ -18,7 +18,7 @@ const Forum_section = () => {
     return (
         <>
 
-            <div className='p-4 pl-14'>
+            <div className='p-4 pl-4 sm:pl-14'>
                 <span className='text-slate-400 text-[10px] cursor-pointer hover:text-black'>Home/Forum</span>
             </div>
 

@@ -23,7 +23,7 @@
     .second-navbar-items-div {
         background-color: rgba(255, 255, 255, 0.284);
         border: 1px solid rgba(128, 128, 128, 0.169);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(25px);
 
         .second-navbar-message-button {
             background: linear-gradient(to right, blue, rgb(218, 31, 106));
@@ -77,6 +77,8 @@
         transform: translateY(0);
     }
 }
+
+
 
 
 
@@ -496,11 +498,10 @@
 
     .topic-items-divs {
         background-color: rgb(15 23 42);
-        transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
 
         &:hover {
             background-image: linear-gradient(220deg, #920d4d 0%, #8c0b9385 50%, #321575 100%);
-            color: white;
         }
     }
 }
@@ -707,6 +708,30 @@
     }
 }
 
+.rightArrow {
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translate(0);
+    }
+
+    30% {
+        transform: translate(10px);
+    }
+
+    50% {
+        transform: translate(0);
+    }
+    70% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
 
 
 // Contributor section responsive
