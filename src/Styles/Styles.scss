@@ -89,7 +89,7 @@
     transform: translate(-35px) translateY(45px) rotate(20deg);
 
     :hover {
-        transition: transform 0.5s ease;
+        transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 }
@@ -99,7 +99,7 @@
     transform: translate(-65px) translateY(-10px) rotate(-10deg);
 
     :hover {
-        transition: transform 0.5s ease;
+        transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 
@@ -116,7 +116,7 @@
     transform: translate(-1.6rem);
 
     :hover {
-        transition: transform 0.5s ease;
+        transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 }
@@ -125,7 +125,7 @@
     transform: translate(45px) translateY(-3.5rem) rotate(10deg);
 
     :hover {
-        transition: transform 0.5s ease;
+        transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 
@@ -142,7 +142,7 @@
     transform: translateY(-60px) rotate(25deg);
 
     :hover {
-        transition: transform 0.5s ease;
+        transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 }
@@ -151,7 +151,7 @@
     transform: translate(-35px) translateY(30px);
 
     :hover {
-        transition: transform 0.5s ease;
+        transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 
@@ -167,7 +167,7 @@
     transform: translate(-5rem);
 
     :hover {
-        transition: transform 0.5s ease;
+        transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 }
@@ -176,7 +176,7 @@
     transform: translate(3.5em) translateY(-1rem) rotate(15deg);
 
     :hover {
-        transition: transform 0.5s ease;
+        transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 
@@ -496,7 +496,7 @@
 
     .topic-items-divs {
         background-color: rgb(15 23 42);
-        transition: transform 0.5s ease, color 0.5s ease;
+        transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
 
         &:hover {
             background-image: linear-gradient(220deg, #920d4d 0%, #8c0b9385 50%, #321575 100%);
