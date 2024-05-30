@@ -27,7 +27,7 @@ const Contributors_section = () => {
 
       <div className=' p-3  hidden lg:flex lg:flex-col  items-center justify-center md:gap-20 overflow-hidden contributors-section-main'>
 
-        <div className='  rounded-2xl bg-red-100 flex flex-col justify-center py-10 ' data-aos="fade-left" data-aos-duration="700" data-aos-offset="50">
+        <div className='  rounded-2xl  flex flex-col justify-center py-10 contributor-to-main-div' data-aos="fade-left" data-aos-duration="700" data-aos-offset="50">
 
           <div className=' py-3 contributor-top-div'>
 
@@ -110,15 +110,15 @@ const Contributors_section = () => {
       </div>
 
 
-      {/* Small screen view ===========================================================
+      {/* Small screen view =========================================================== 
       ========================================================================================= */}
 
 
       <div className=' py-5 sm:p-4  lg:hidden grid gap-5 sm:grid-col-1 md:grid-cols-2 justify-center content-center overflow-hidden'>
 
-        <div className=' w-[100%] h-[100%] grow rounded-2xl bg-red-100 flex flex-col justify-center py-10 contributor-top-div' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+        <div className=' w-[100%] h-[100%] grow rounded-2xl  flex flex-col justify-center py-10 contributor-to-main-div' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
 
-          <div className=' py-3 '>
+          <div className=' py-3 contributor-top-div'>
 
             <div className='w-full p-3 flex flex-col items-center'>
               <h2 className=' text-3xl font-serif'>Top Contributer</h2>

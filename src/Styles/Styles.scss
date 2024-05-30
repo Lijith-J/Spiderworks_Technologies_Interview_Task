@@ -494,7 +494,7 @@
 
 
 .topic-section-parent-div {
-    background-color: rgb(253, 251, 229);
+    background-color: #fff9e3;
 
     .topic-items-divs {
         background-color: rgb(15 23 42);
@@ -626,10 +626,12 @@
 // Contributers section
 // _____________________________________________________________
 
-
+.contributor-to-main-div{
+    background-color: #fff4ed;
+}
 .contributor-top-div {
 
-    border-bottom: 1px solid rgba(128, 39, 39, 0.532);
+    border-bottom: 1px solid rgba(140, 73, 73, 0.532);
 
     .top-contributor-response-tag {
         transform: translate(-6rem) translateY(-.4rem);
