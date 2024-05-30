@@ -27,24 +27,24 @@ const Topic_section = () => {
                         <h1 className='text-3xl sm:text-4xl font-serif' data-aos="zoom-out" data-aos-duration="700" data-aos-offset="50">Most Searched Ones</h1>
                     </div>
 
-                    <div className='py-5 md:p-4 lg:p-7 grid  md:grid-cols-2 lg:grid-cols-3  gap-5 overflow-hidden'>
+                    <div className='py-5 p-3 md:p-4 lg:p-7 grid  md:grid-cols-2 lg:grid-cols-3  gap-5 overflow-hidden'>
 
-                        <div className='bg-slate-900 text-white px-12 py-16 py- flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+                        <div className='bg-slate-900 text-white  px-12 py-16 flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
                             Elibility
                         </div>
-                        <div className='bg-slate-900 text-white px-12 py-16 py- flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+                        <div className='bg-slate-900 text-white lg:text-[22px]  px-12 py-16 flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
                             F1 Visa Students
                         </div>
-                        <div className='bg-slate-900 text-white px-12 py-16 py- flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+                        <div className='bg-slate-900 text-white  px-12 py-16 flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
                             Universities
                         </div>
-                        <div className='bg-slate-900 text-white px-12 py-16 py- flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+                        <div className='bg-slate-900 text-white  px-12 py-16 flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
                             Admission
                         </div>
-                        <div className='bg-slate-900 text-white px-12 py-16 py- flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+                        <div className='bg-slate-900 text-white  px-12 py-16 flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
                             Companies
                         </div>
-                        <div className='bg-slate-900 text-white px-12 py-16 py- flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+                        <div className='bg-slate-900 text-white  px-12 py-16 flex justify-center items-center font-serif text-2xl rounded-2xl cursor-pointer topic-items-divs' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
                             Jobs
                         </div>
 

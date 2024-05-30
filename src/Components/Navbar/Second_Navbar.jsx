@@ -36,7 +36,7 @@ const Second_Navbar = () => {
                         <div className=' rounded-full p-[2px] flex justify-center items-center cursor-pointer second-navbar-message-button'>
                             <div className='bg-white px-3 py-[6px] rounded-full flex items-center gap-2 hover:bg-slate-100'>
                                 <LuMessageSquare size={15} />
-                                <span className=' text-[10px] sm:text-sm'>Discuss CPT</span>
+                                <span className=' text-[8px] sm:text-sm lg:text-[13px]'>Discuss CPT</span>
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@ const Second_Navbar = () => {
                             </div>
 
                             <div className='  flex p-[5px] lg:p-2 items-center justify-center'>
-                                <span className='text-[10px] sm:text-sm'>Join programme</span>
+                                <span className='text-[8px] sm:text-sm'>Join programme</span>
                             </div>
 
                         </div>

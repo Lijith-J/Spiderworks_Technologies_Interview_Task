@@ -33,6 +33,8 @@
 }
 
 
+
+
 // Forum section
 // ________________________________________________
 
@@ -65,6 +67,9 @@
     }
 
     50% {
+        transform: translateY(0);
+    }
+    70% {
         transform: translateY(0);
     }
 
@@ -512,7 +517,108 @@
 
 .question-answers-item-div {
     border-bottom: 2px solid rgb(198, 196, 196);
+
+
 }
+
+
+// Question answer section
+// ________________________________________________________________
+
+@media (min-width:1024px) and (max-width:1300px) {
+
+    .responses-button {
+        padding: 0.50rem .7rem 0.50rem .7rem;
+        font-size: 10px;
+
+        span {
+            font-size: 8px;
+        }
+    }
+
+    .view-answer-button {
+        padding: 0.50rem 1.10rem 0.50rem 1.10rem;
+    }
+}
+
+@media (min-width:850px) and (max-width:960px) {
+    .responses-button {
+        padding: 0.50rem .7rem 0.50rem .7rem;
+        font-size: 10px;
+
+        span {
+            font-size: 8px;
+        }
+    }
+
+    .view-answer-button {
+        padding: 0.40rem 1.5rem 0.40rem 1.5rem;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:850px) {
+
+    .responses-button {
+        padding: 0.50rem .7rem 0.50rem .7rem;
+        font-size: 10px;
+
+        span {
+            font-size: 8px;
+        }
+    }
+
+    .view-answer-button {
+        padding: 0.50rem 1.10rem 0.50rem 1.10rem;
+    }
+}
+
+@media (min-width:640px) and (max-width:768px) {
+
+    .responses-button {
+        padding: 0.50rem .5rem 0.50rem .5rem;
+        font-size: 10px;
+
+        span {
+            font-size: 8px;
+        }
+    }
+
+    .view-answer-button {
+        padding: 0.50rem 1rem 0.50rem 1rem;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:460px) {
+
+    .question-div {
+        h3 {
+            font-size: 10px;
+        }
+
+        p {
+            font-size: 10px;
+        }
+    }
+
+    .responses-button {
+        padding: 0.50rem .5rem 0.50rem .5rem;
+        font-size: 10px;
+
+        span {
+            font-size: 8px;
+        }
+    }
+
+    .view-answer-button {
+        padding: 0.40rem .8rem 0.40rem .8rem;
+    }
+}
+
+
+
 
 
 
@@ -525,7 +631,7 @@
     border-bottom: 1px solid rgba(128, 39, 39, 0.532);
 
     .top-contributor-response-tag {
-        transform: translate(-7rem) translateY(-1rem);
+        transform: translate(-6rem) translateY(-.4rem);
         padding: 5px 10px 5px 10px;
         border-radius: 2rem;
         font-size: 8px;
@@ -535,7 +641,7 @@
     }
 
     .top-contributor-rating-tag {
-        transform: translate(7rem) translateY(1rem);
+        transform: translate(6rem) translateY(1.6rem);
         padding: 5px 10px 5px 10px;
         border-radius: 2rem;
         font-size: 8px;
@@ -548,7 +654,11 @@
 
 .join-community-button {
     background-image: linear-gradient(-225deg, #600430 0%, #8D0B93 50%, #321575 100%);
-    // padding: 1.7rem 4rem 1.7rem 4rem;
+
+    &:hover {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.814), white);
+        background-color: white;
+    }
 }
 
 
@@ -557,8 +667,8 @@
 // ______________________
 
 
-.contibutors-bottom-parent-div{
-    background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+.contibutors-bottom-parent-div {
+    background-image: linear-gradient(to top, #830b13 0%, #221a64 100%);
 }
 
 .backside-image-rounded-div1 {
@@ -595,4 +705,45 @@
     img {
         transform: rotate(-68deg) translate(-1.2rem) translateY(-2.5rem) scale(2);
     }
+}
+
+
+
+// Contributor section responsive
+// __________________________________________________
+
+
+@media (min-width:1020px) and (max-width:1300px) {
+
+    .top-contributor-response-tag {
+        transform: translate(-6rem) translateY(-1rem) !important;
+        padding: 5px 10px 5px 10px;
+        border-radius: 2rem;
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .top-contributor-rating-tag {
+        transform: translate(5.5rem) translateY(1.4rem) !important;
+        padding: 5px 10px 5px 10px;
+        border-radius: 2rem;
+        font-size: 8px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .join-community-button {
+        background-image: linear-gradient(-225deg, #600430 0%, #8D0B93 50%, #321575 100%);
+        font-size: .8rem;
+    }
+
+}
+
+@media (min-width:1024px) and (max-width:830px) {
+
+    
+
 }
