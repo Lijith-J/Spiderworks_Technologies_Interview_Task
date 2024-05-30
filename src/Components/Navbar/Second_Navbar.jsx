@@ -17,7 +17,7 @@ const Second_Navbar = () => {
         <>
 
 
-            <div className='fixed z-10 p-2 top-[15px] sm:top-[20px] w-full flex justify-center second-navbar-parent overflow-hidden'>
+            <div className='fixed z-10 p-2 top-[11px] sm:top-[20px] w-full flex justify-center second-navbar-parent overflow-hidden'>
 
 
                 <div className=' w-[85%] sm:[85%] md:w-[70%] lg:w-[50%] h-[60px] rounded-lg p-2 gap-2 flex justify-around second-navbar-items-div' >
@@ -28,13 +28,13 @@ const Second_Navbar = () => {
 
                     <div className='p-2 flex gap-2 justify-evenly items-center'>
 
-                        <div className='bg-gray-900 text-white px-5 py-[6px] rounded-full hidden sm:flex gap-2 justify-center items-center cursor-pointer hover:bg-slate-700 '>
-                            <IoIosMenu color='white' size={22} />
+                        <div className='bg-gray-900 text-white px-5 py-[6px] rounded-full hidden sm:flex gap-2 justify-center items-center cursor-pointer hover:bg-white hover:text-black hover:ring-1 ring-stone-700 '>
+                            <IoIosMenu color='' size={22} />
                             <span className=''>Menu</span>
                         </div>
 
                         <div className=' rounded-full p-[2px] flex justify-center items-center cursor-pointer second-navbar-message-button'>
-                            <div className='bg-white px-3 py-[6px] rounded-full flex items-center gap-2 hover:bg-slate-100'>
+                            <div className='bg-white text-black px-3 py-[6px] rounded-full flex items-center gap-2 hover:bg-gradient-to-tr hover:from-teal-500 hover:to-pink-400 hover:text-white'>
                                 <LuMessageSquare size={15} />
                                 <span className=' text-[8px] sm:text-sm lg:text-[13px]'>Discuss CPT</span>
                             </div>
