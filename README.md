@@ -6,7 +6,7 @@ Converted the provided Figma Design into React Webpage.
 
 Features
 -------------------------------------------
-1) Responsive Design: The webpage is designed to be fully responsive, ensuring optimal viewing experiences across a wide range of devices, including desktops, tablets, and mobile phones.
+1)Responsive Design: The webpage is designed to be fully responsive, ensuring optimal viewing experiences across a wide range of devices, including desktops, tablets, and mobile phones.
 
 2)Tailwind CSS:  Utilized Tailwind CSS for rapid and efficient styling, making use of its utility-first approach to ensure clean and maintainable code.
 
