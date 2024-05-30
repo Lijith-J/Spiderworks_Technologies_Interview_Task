@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { LuMessageSquare } from "react-icons/lu";
 import { AiOutlineBulb } from "react-icons/ai";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
-import Avatars_section from './Avatars_section';
+
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -51,7 +51,6 @@ const Discussion_section = () => {
 
       </div>
 
-      <Avatars_section/>
 
     </>
   )
