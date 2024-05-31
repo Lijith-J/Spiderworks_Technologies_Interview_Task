@@ -5,9 +5,20 @@ import mainLogo from './images/logo.png'
 import searchIcon from './images/search.png'
 import Second_Navbar from './Second_Navbar'
 
+import { IoIosArrowDropupCircle } from "react-icons/io";
+
 import { IoIosMenu } from "react-icons/io";
 
 const Navbar = () => {
+
+
+  const scrollToTop =()=>{
+    window.scrollTo({
+      top:0,
+      behavior:"smooth"
+    })
+  }
+
   return (
 
     <>
@@ -55,6 +66,10 @@ const Navbar = () => {
       </div>
 
       <Second_Navbar />
+
+
+      <IoIosArrowDropupCircle onClick={scrollToTop} size={50} className=' z-50 fixed bottom-10 right-10 to-top-button'  />
+
 
     </>
   )
