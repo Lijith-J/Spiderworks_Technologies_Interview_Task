@@ -116,7 +116,7 @@ const Contributors_section = () => {
 
       <div className=' py-5 sm:p-4  lg:hidden grid gap-5 sm:grid-col-1 md:grid-cols-2 justify-center content-center overflow-hidden'>
 
-        <div className=' w-[100%] h-[100%] grow rounded-2xl  flex flex-col justify-center py-10 contributor-to-main-div' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+        <div className=' w-[100%] h-[100%] grow rounded-2xl  flex flex-col justify-center py-10 contributor-to-main-div' data-aos="fade-left" data-aos-duration="900" data-aos-offset="50">
 
           <div className=' py-3 contributor-top-div'>
 
@@ -168,7 +168,7 @@ const Contributors_section = () => {
 
         {/* Right Part ===================================================================== */}
 
-        <div className='w-[100%] h-[100%] px-3 rounded-2xl contibutors-bottom-parent-div' data-aos="fade-up" data-aos-duration="700" data-aos-offset="50">
+        <div className='w-[100%] h-[100%] px-3 rounded-2xl contibutors-bottom-parent-div' data-aos="fade-right" data-aos-duration="900" data-aos-offset="50">
 
           <div className='  w-full h-[300px] p-5 flex justify-center items-center'>
 

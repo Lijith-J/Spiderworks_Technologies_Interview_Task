@@ -20,4 +20,4 @@ Features
 
 
 
-Natlify Link : https://tranquil-empanada-facbb4.netlify.app/
+Natlify Link : https://kaleidoscopic-kelpie-399462.netlify.app/
