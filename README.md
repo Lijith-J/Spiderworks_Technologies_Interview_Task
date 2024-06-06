@@ -20,4 +20,4 @@ Features
 
 
 
-Natlify Link : https://marvelous-dolphin-bd6c21.netlify.app/
+Netlify Link : https://eclectic-crepe-fd6203.netlify.app/

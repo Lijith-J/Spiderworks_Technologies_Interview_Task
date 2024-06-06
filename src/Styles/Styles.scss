@@ -13,11 +13,10 @@
         font-weight: 400;
     }
 
-    
+
 }
 
-.to-top-button{
-
+.to-top-button {
     animation: jumpup 1.5s infinite !important;
     cursor: pointer;
 }
@@ -34,6 +33,7 @@
     50% {
         transform: translateY(0);
     }
+
     70% {
         transform: translateY(0);
     }
@@ -92,12 +92,13 @@
     }
 
     30% {
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
 
     50% {
         transform: translateY(0);
     }
+
     70% {
         transform: translateY(0);
     }
@@ -112,41 +113,84 @@
 
 
 // Avatar Section
-// _________________________________________
+// ____________________________________________________________________
 
 
 
 .avatar-bubbles-div-1 {
     transform: translate(-35px) translateY(45px) rotate(20deg);
 
-    :hover {
+    img:hover {
         transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 }
 
 .avatar-bubbles-div-2 {
-
     transform: translate(-65px) translateY(-10px) rotate(-10deg);
 
-    :hover {
+    img:hover {
         transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 
-    :nth-child(2) {
+    .message-tag-1 {
+        background-color: #2c7a7b;
+        color: white;
+        font-size: 0.875rem;
+        padding: 2px 16px;
+        display: inline-block;
         position: absolute;
         transform: translate(1.25rem) rotate(9deg);
         right: 0;
         top: 30%;
         border-radius: 16px 12px 12px 0;
+
     }
+
+    .animate {
+        animation: popUpVibrate 2s ease infinite;
+        
+    }
+
+    @keyframes popUpVibrate {
+        0% {
+            transform: scale(1) translate(1.25rem) rotate(9deg);
+            opacity: 1;
+        }
+
+        50% {
+            transform: scale(0) translate(1.25rem) rotate(9deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(1) translate(1.25rem) rotate(9deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(0.5) translate(1.25rem) rotate(9deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(0.9) translate(1.25rem) rotate(9deg);
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1) translate(1.25rem) rotate(9deg);
+            opacity: 1;
+        }
+    }
+
 }
 
 .avatar-bubbles-div-3 {
     transform: translate(-1.6rem);
 
-    :hover {
+    img:hover {
         transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
@@ -155,24 +199,61 @@
 .avatar-bubbles-div-4 {
     transform: translate(45px) translateY(-3.5rem) rotate(10deg);
 
-    :hover {
+    img:hover {
         transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 
-    :nth-child(2) {
+    .message-tag-2 {
         position: absolute;
         left: 0;
         bottom: 30%;
         border-radius: 12px 16px 0 12px;
         transform: translate(-65px) translateY(26px) rotate(-10deg);
     }
+
+    .animate2 {
+        animation: popUpVibrateTwo 2s ease infinite;
+        
+    }
+
+    @keyframes popUpVibrateTwo {
+        0% {
+            transform: scale(1) translate(-65px) translateY(26px) rotate(-10deg);
+            opacity: 1;
+        }
+
+        50% {
+            transform: scale(0) translate(-65px) translateY(26px) rotate(-10deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(1) translate(-65px) translateY(26px) rotate(-10deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(0.5) translate(-65px) translateY(26px) rotate(-10deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(0.9) translate(-65px) translateY(26px) rotate(-10deg);
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1) translate(-65px) translateY(26px) rotate(-10deg);
+            opacity: 1;
+        }
+    }
 }
 
 .avatar-bubbles-div-5 {
     transform: translateY(-60px) rotate(25deg);
 
-    :hover {
+    img:hover {
         transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
@@ -181,23 +262,60 @@
 .avatar-bubbles-div-6 {
     transform: translate(-35px) translateY(30px);
 
-    :hover {
+    img:hover {
         transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 
-    :nth-child(2) {
+    .massage-tag-3 {
         position: absolute;
         top: -10px;
         right: -20px;
         border-radius: 16px 12px 12px 0;
+    }
+
+    .animate3 {
+        animation: popUpVibrateThree 2s ease infinite;
+        
+    }
+
+    @keyframes popUpVibrateThree {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        50% {
+            transform: scale(0);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(0.5);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(0.9);
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
     }
 }
 
 .avatar-bubbles-div-7 {
     transform: translate(-5rem);
 
-    :hover {
+    img:hover {
         transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
@@ -206,17 +324,54 @@
 .avatar-bubbles-div-8 {
     transform: translate(3.5em) translateY(-1rem) rotate(15deg);
 
-    :hover {
+    img:hover {
         transition: transform 0.5s ease-in-out;
         transform: scale(1.1);
     }
 
-    :nth-child(2) {
+    .message-tag-4 {
         position: absolute;
         left: 0;
         bottom: 20px;
         transform: translate(-5rem) rotate(-15deg);
         border-radius: 12px 16px 0 12px;
+    }
+
+    .animate4 {
+        animation: popUpVibrateFour 2s ease infinite;
+        
+    }
+
+    @keyframes popUpVibrateFour {
+        0% {
+            transform: scale(1) translate(-5rem) rotate(-15deg);
+            opacity: 1;
+        }
+
+        50% {
+            transform: scale(0) translate(-5rem) rotate(-15deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(1) translate(-5rem) rotate(-15deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(0.5) translate(-5rem) rotate(-15deg);
+            opacity: 1;
+        }
+
+        70% {
+            transform: scale(0.9) translate(-5rem) rotate(-15deg);
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1) translate(-5rem) rotate(-15deg);
+            opacity: 1;
+        }
     }
 }
 
@@ -230,7 +385,11 @@
 
 
     .avatar-bubbles-div-2 {
-        transform: translate(-35px) translateY(-10px) rotate(-10deg);
+        transform: translate(-35px) translateY(-10px) rotate(-10deg) !important;
+
+        .message-tag-1 {
+            right: -1.1rem;
+        }
     }
 
     .avatar-bubbles-div-7 {
@@ -245,11 +404,11 @@
     .avatar-bubbles-div-2 {
         transform: translate(-25px) translateY(-10px) rotate(-10deg);
 
-        :nth-child(2) {
+        .message-tag-1 {
             position: absolute;
             transform: translate(1.10rem) translateY(-1.7rem) rotate(9deg);
             right: 0;
-            top: 30%;
+            top: 25%;
             border-radius: 16px 12px 12px 0;
         }
     }
@@ -257,7 +416,7 @@
     .avatar-bubbles-div-6 {
         transform: translate(-35px) translateY(60px);
 
-        :nth-child(2) {
+        .massage-tag-3 {
             position: absolute;
             top: -10px;
             right: -20px;
@@ -279,7 +438,7 @@
     .avatar-bubbles-div-2 {
         transform: translate(-.5rem) translateY(1rem) rotate(-10deg) !important;
 
-        :nth-child(2) {
+        .message-tag-1 {
             position: absolute;
             transform: translate(1.10rem) translateY(-1.7rem) rotate(9deg);
             right: 0;
@@ -291,7 +450,7 @@
     .avatar-bubbles-div-6 {
         transform: translate(-35px) translateY(30px);
 
-        :nth-child(2) {
+        .massage-tag-3 {
             position: absolute;
             top: -10px;
             right: -20px;
@@ -313,10 +472,10 @@
     .avatar-bubbles-div-2 {
         transform: translate(-35px) translateY(-10px) rotate(-10deg);
 
-        :nth-child(2) {
+        .message-tag-1 {
             position: absolute;
             transform: translate(1.5rem) translateY(-1.5rem) rotate(9deg);
-            right: 0;
+            right: -1.1rem;
             top: 30%;
             border-radius: 16px 12px 12px 0;
         }
@@ -325,7 +484,7 @@
     .avatar-bubbles-div-4 {
         transform: translate(25px) rotate(10deg);
 
-        :nth-child(2) {
+        .message-tag-2 {
             position: absolute;
             left: 0;
             bottom: 30%;
@@ -338,7 +497,7 @@
     .avatar-bubbles-div-6 {
         transform: translate(-35px) translateY(30px);
 
-        :nth-child(2) {
+        .massage-tag-3 {
             position: absolute;
             top: -10px;
             right: -20px;
@@ -355,7 +514,7 @@
     .avatar-bubbles-div-8 {
         transform: translate(2.5em) translateY(-.5rem) rotate(15deg);
 
-        :nth-child(2) {
+        .message-tag-4 {
             position: absolute;
             left: 0;
             bottom: 20px;
@@ -378,7 +537,7 @@
 
         transform: translate(-2rem) translateY(-1rem) rotate(-10deg);
 
-        :nth-child(2) {
+        .message-tag-1 {
             position: absolute;
             transform: translate(2rem) translateY(-.5rem) rotate(9deg);
             right: 0;
@@ -395,7 +554,7 @@
     .avatar-bubbles-div-4 {
         transform: translate(45px) translateY(-2rem) rotate(10deg);
 
-        :nth-child(2) {
+        .message-tag-2 {
             position: absolute;
             left: 0;
             bottom: 30%;
@@ -412,7 +571,7 @@
     .avatar-bubbles-div-6 {
         transform: translate(-35px) translateY(1.3rem);
 
-        :nth-child(2) {
+        .massage-tag-3 {
             position: absolute;
             top: -10px;
             right: -20px;
@@ -429,7 +588,7 @@
     .avatar-bubbles-div-8 {
         transform: translate(3em) translateY(-1rem) rotate(15deg);
 
-        :nth-child(2) {
+        .message-tag-4 {
             position: absolute;
             left: 0;
             bottom: 10px;
@@ -454,7 +613,7 @@
 
         transform: translate(-1rem) rotate(-10deg);
 
-        :nth-child(2) {
+        .message-tag-1 {
             position: absolute;
             transform: translate(1.5rem) translateY(-.5rem) rotate(9deg);
             right: 0;
@@ -472,7 +631,7 @@
     .avatar-bubbles-div-4 {
         transform: translate(1rem) translateY(-1rem) rotate(10deg);
 
-        :nth-child(2) {
+        .message-tag-2 {
             position: absolute;
             left: 0;
             bottom: 30%;
@@ -489,7 +648,7 @@
     .avatar-bubbles-div-6 {
         transform: translate(-35px) translateY(1.3rem);
 
-        :nth-child(2) {
+        .massage-tag-3 {
             position: absolute;
             top: -10px;
             right: -20px;
@@ -506,7 +665,7 @@
     .avatar-bubbles-div-8 {
         transform: translate(2em) translateY(1rem) rotate(15deg);
 
-        :nth-child(2) {
+        .message-tag-4 {
             position: absolute;
             left: 0;
             bottom: 10px;
@@ -655,9 +814,10 @@
 // Contributers section
 // _____________________________________________________________
 
-.contributor-to-main-div{
+.contributor-to-main-div {
     background-color: #fff4ed;
 }
+
 .contributor-top-div {
 
     border-bottom: 1px solid rgba(140, 73, 73, 0.532);
@@ -755,6 +915,7 @@
     50% {
         transform: translate(0);
     }
+
     70% {
         transform: translate(0);
     }
@@ -798,8 +959,4 @@
 
 }
 
-@media (min-width:1024px) and (max-width:830px) {
-
-    
-
-}
+@media (min-width:1024px) and (max-width:830px) {}
